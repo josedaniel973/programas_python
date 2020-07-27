@@ -3,7 +3,7 @@ print("¡Bienvenido al juego de piedra, papel y tijeras!")
 import juego_mod
 import random as al
 rou = int(input("¿Cuántas rondas quieres jugar? "))
-print("Bien, recuerda que:\n1. Piedra\n2.Papel\n3.Tijeras\n")
+print("Bien, recuerda que:\n1.Piedra\n2.Papel\n3.Tijeras\n")
 ref = {1: "piedra", 2: "papel", 3: "tijeras"}
 k = 0
 while k != rou:
