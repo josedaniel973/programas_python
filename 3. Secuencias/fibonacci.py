@@ -2,8 +2,8 @@
 anterior2, anterior1, actual = 0, 0, 1
 bus = int(input("Posición del número de fibonacci a buscar: "))
 k = bus
-if bus == 1:
-    print("El primer número de fibonacci es " + str(actual) + ".")
+if bus == 1 or bus == 2:
+    print("Los primer y segundo números de fibonacci son " + str(actual) + ".")
 else:
     while bus != 1:
         anterior1 = actual
