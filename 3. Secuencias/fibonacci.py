@@ -5,7 +5,7 @@ k = bus
 if bus == 1:
     print("El primer número de fibonacci es " + str(actual) + ".")
 else:
-    while bus != 0:
+    while bus != 1:
         anterior1 = actual
         actual = anterior1 + anterior2
         anterior2 = anterior1
