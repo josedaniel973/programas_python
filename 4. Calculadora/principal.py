@@ -1,4 +1,4 @@
-#Programa para obtener distancias, áreas, volúmenes, derivar, y resolver sistemas de ecuaciones.
+#Programa para obtener distancias, áreas, volúmenes, y resolver sistemas de ecuaciones.
 print("¡Bienvenido a calculadora!")
 opt = input("¿Qué quieres hacer?\nL - Calcular recta que une 2 puntos.\nA - Calcular área de un polígono.\nV - Calcular volumen de un poliedro.\nS - Resolver sistemas de ecuaciones.\nQ - Salir\n> ")
 while opt.upper() != "":
