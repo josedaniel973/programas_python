@@ -11,10 +11,12 @@ def dro(geom):
         from math import pi
         return (4/3)*pi*(radio**3)
     elif geom.upper() == "V":
-        radio,altura = float(input("Ingresa el radio de la base del cono y su altura: ").split(","))
+        radio,altura = input("Ingresa el radio de la base del cono y su altura: ").split(",")
+        radio, altura = float(radio),float(altura)
         from math import pi
         return (1/3)*pi*altura*(radio**2)
     elif geom.upper() == "L":
-        radio,altura = float(input("Ingresa el radio de la base y altura del cilindro: ").split(","))
+        radio,altura = input("Ingresa el radio de la base y altura del cilindro: ").split(",")
+        radio, altura = float(radio),float(altura)
         from math import pi
         return pi*altura*(radio**2)
